@@ -8,10 +8,11 @@ SIlnia (4) = 1*2*3*4=24 */
 
 int silnia(int i)
 {
+  //Exit 136
   int s=1;
   for(int n = 1; n<=i; n++)
   {
-    s=s*n;
+    s= s * n;
   }
   return s;
 }
@@ -19,6 +20,14 @@ int silnia(int i)
 int main()
 {
   int i = 4;
+  printf("Silnia(4) = %d\n", silnia(4));
+  printf("Silnia(3) = %d\n", silnia(3));
+  printf("Silnia(2) = %d\n", silnia(2));
+  printf("Silnia(1) = %d\n", silnia(1));
+  printf("Silnia(0) = %d\n", silnia(0));
+  printf("Silnia(2.5) = %d\n", silnia(2.5));
+  printf("Silnia(-4) = %d\n", silnia(-4));
+
   printf("Silnia z %d = %d\n", i, silnia(i));
   return 0;
 }
