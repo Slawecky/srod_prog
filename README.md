@@ -1,1 +1,1 @@
-# srod_prog
+# Środowisko programowania
