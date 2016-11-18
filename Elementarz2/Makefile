@@ -4,4 +4,4 @@ LDLIBS=-lm
 all: zad1 zad2	zad3 zad4
 
 clean :
-	rm -f *.o *~ zad1 zad2	zad3 zad4
+	rm -f *.o *~ zad1 zad2	zad3 zad4 
