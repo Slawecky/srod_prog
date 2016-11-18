@@ -1,17 +1,18 @@
+/** Pobrane od Dawida M. */
 #include <stdio.h>
+#include <math.h>
 int main() {
-  /* deklaracje zmiennych */
+  int n, jest_pierwsza=1, i=2, s;
   printf("Podaj liczbe calkowita: ");
-  /* wczytaj tę liczbę do zmiennej n */
-  /* sprawdź czy n jest liczbą pierwszą */
+  scanf("%d", &n);
+  s=sqrt(n);
+  while (i<=s && jest_pierwsza==1) {
+    if (n%i==0) {
+      jest_pierwsza=0;
+    }
+    i++;
+  }
   printf("Podana liczba '%d' jest %s\n",
     n, jest_pierwsza ? "pierwsza" : "złożona");
   return 0;
 }
-Rozmawiają dwaj profesorowie matematyki:
-– Dasz mi swój nr telefonu?
-– No pewnie. Trzecia cyfra jest trzykrotnością pierwszej. Czwarta i szósta są takie same. Druga jest większa o jeden od piątej. Suma sześciu cyfr to 23, a iloczyn 2160.
-– W porządku, zapisałem – 256 343.
-– Zgadza się. Nie zapomnisz?
-– Skądże. To kwadrat 16 i sześcian 7.
-Dilbert & Math

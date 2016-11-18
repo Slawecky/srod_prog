@@ -1,15 +1,15 @@
+/** Pobrane od Dawida M. */
 #include <stdio.h>
 int main() {
   int M;
-  suma = 0;
-  i = 1;
-  print("Podaj liczbe M: ");
-  scanf("%f\n", %M)
+  int suma = 0;
+  int i = 1;
+  printf("Podaj liczbe M: ");
+  scanf("%d", &M);
   while (suma < M) {
      suma=suma+i;
      i=i+1;
   }
-  n=i+1;
-  printf("Szukane n to: ", n);
+  printf("Szukane n to: %d\n", i-1);
   return 0;
 }
