@@ -15,10 +15,11 @@ for(int i = 0; i < n; i++, dziel += 2) {
   }
   pi += znak * (4 / dziel);
 }
-  return pi
+  return pi;
+}
 
-int int main() {
-  int liczba_składników[] = (0, 100, 1000,1000000, 1000000000)
+int main() {
+  int liczbaskładników[] = (0, 100, 1000,1000000, 1000000000);
   for (int i= 0; i<5; i++)
   printf("%f\n", pi);
 return 0;
