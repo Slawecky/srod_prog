@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int y, x=1, wynik = 0;
     while (x<=10) {
