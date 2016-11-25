@@ -23,4 +23,4 @@ int main() {
   scanf("%c%c", &c, &d);
   for (int x = 0; x < b; x++)
     print_line(a, x, c, d);
-}
+}tom zad3
