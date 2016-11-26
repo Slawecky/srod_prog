@@ -13,7 +13,7 @@
       "properties": {
         "title": "Mój blok",
         "description": "Tyb architektury Barok Stalinowski",
-        "marker-size": "medium",
+        "marker-size": "large",
         "marker-symbol": "building"
       }
     }
