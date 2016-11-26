@@ -32,6 +32,22 @@
         "marker-size": "medium",
         "marker-symbol": "town-hall"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.573443999999995,
+          54.82624509999999
+        ]
+      },
+      "properties": {
+        "title": "Tu się uczę",
+        "description": "U.G. Instytut Informatyki",
+        "marker-size": "medium",
+        "marker-symbol": "university"
+      }
     }
   ]
 }
