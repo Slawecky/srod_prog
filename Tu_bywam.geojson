@@ -14,7 +14,7 @@
         "title": "Mój blok",
         "description": "Tyb architektury Barok Stalinowski",
         "marker-size": "medium",
-        "marker-symbol": "building"
+        "marker-symbol": "residential-community"
       }
     },
     {
@@ -30,7 +30,7 @@
         "title": "Tu odpoczywam",
         "description": "K.D.W. Magnolia",
         "marker-size": "medium",
-        "marker-symbol": "town-hall"
+        "marker-symbol": "building"
       }
     },
     {
