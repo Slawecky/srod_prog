@@ -13,7 +13,7 @@
       "properties": {
         "title": "Mój blok",
         "description": "Tyb architektury Barok Stalinowski",
-        "marker-size": "large",
+        "marker-size": "medium",
         "marker-symbol": "building"
       }
     },
@@ -30,7 +30,7 @@
         "title": "Tu odpoczywam",
         "description": "K.D.W. Magnolia",
         "marker-size": "medium",
-        "marker-symbol": "building"
+        "marker-symbol": "hotel"
       }
     }
   ]
