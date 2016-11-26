@@ -16,6 +16,22 @@
         "marker-size": "large",
         "marker-symbol": "building"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.321744800000033,
+          54.82624509999999
+        ]
+      },
+      "properties": {
+        "title": "Tu odpoczywam",
+        "description": "K.D.W. Magnolia",
+        "marker-size": "medium",
+        "marker-symbol": "building"
+      }
     }
   ]
 }
