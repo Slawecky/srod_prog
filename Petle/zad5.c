@@ -1,13 +1,34 @@
 #include <stdio.h>
 
-int main() {
-    int y, x=1, wynik = 0;
-    while (x<=10) {
-        y = x*x;
-        printf("%d\n", y);
-        wynik += y;
-        ++x;
+  void wczytaj_6_liczb( int tablica[] ){
+    int i;
+    for (i = 0; i <= 5; i++){
+      printf("Podaj liczbę: ");
+      scanf("%d", &tablica[i]);
     }
-    printf("wynik = %d\n", wynik);
-    return 0;
+  }
+
+  void liczby2(int tablica[]){
+    int i;
+    for (i = 5; i >= 0; i--){
+      printf("liczba numer %d = %d\n", i, tablica[i]);
+    }
 }
+
+  void liczby(int tablica[]){
+      int i;
+      for (i = 0; i <= 5; i++){
+        printf("liczba numer %d = %d\n", i, tablica[i]);
+      }
+}
+
+int main() {
+        int tablica[5];
+
+        wczytaj_6_liczb(tablica);
+        printf("\nWpisane przez Ciebie liczby:\n");
+        liczby(tablica);
+        printf("\nWpisane przez Ciebie liczby(odwrotnie):\n");
+        liczby2(tablica);
+    }
+    

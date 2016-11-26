@@ -1,26 +1,20 @@
-#include <stdio.h>
 
+#include <stdio.h>
 int even(int k) {
   return k % 2 == 0;
 }
 
-void print_line(int p, int r, char a, char b) {
-    if (even(r)) {
-      char c = a;
-      a = b;
-      b = c;
-    }
-    for (int y = 0; y < p; y++)
-      printf("%c%c", a, b);
+void print_line(int p, int r) {
+  const char *pattern = even (r) ? "* " : " *";
+    for (int y = 0; y < p-1; y++)
+      printf("%s", pattern);
+    printf("%s", even(r) ? "*" : pattern);
     printf("\n");
 }
 
 int main() {
   int a, b;
-  printf("Podaj wymiar x*y\\t znaki\n");
-  scanf("%d %d\t", &a, &b);
-  char c, d;
-  scanf("%c%c", &c, &d);
+  scanf("%d %d", &a, &b);
   for (int x = 0; x < b; x++)
-    print_line(a, x, c, d);
-}tom zad3
+    print_line(a ,x);
+}
