@@ -6,15 +6,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0400009155,
-          52.3219985962
+          54.4719464,
+          18.464698
         ]
       },
       "properties": {
         "title": "Mój blok",
         "description": "Tyb architektury Barok Stalinowski",
         "marker-size": "medium",
-        "marker-symbol": "Lotnisko"
+        "marker-symbol": "lotnisko"
       }
     }
   ]
