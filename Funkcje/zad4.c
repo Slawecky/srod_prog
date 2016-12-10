@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include <math.h>
+
+int invert(int n) {
+  return n;
+}
+
 int main() {
-  return 0;
+  int n;
+  scanf("%d", &n);
+  printf("%d\n", invert(n));
 }
