@@ -8,7 +8,7 @@ int main() {
   printf("wd(6,6) = %d\n ",wd(6, 6));
   // printf("wd(5,6) = %d\n ",wd(5, 6));
   printf("wd(49,6) = %d\n ",wd(49, 6));
-  printf("wd(100,20) = %d\n ",wd(100, 20));
+  printf("wd(100,6) = %d\n ",wd(100, 6));
 }
 
     int wd(int n, int k) {
