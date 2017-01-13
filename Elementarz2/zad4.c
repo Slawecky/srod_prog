@@ -1,4 +1,3 @@
-/** Pobrane od Dawida M. */
 #include <stdio.h>
 int main ()
 {

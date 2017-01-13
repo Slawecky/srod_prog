@@ -7,14 +7,14 @@ double leibniz(int n) {
   double dziel = 3;
   int znak = 1;
 
-for(int i = 0; i < n; i++, dziel += 2) {
-  if (znak == 1) {
-    znak = -1;
-}  else  {
-    znak = 1;
+  for(int i = 0; i < n; i++, dziel += 2) {
+    if (znak == 1) {
+      znak = -1;
+    }  else  {
+      znak = 1;
+    }
+    pi += znak * (4 / dziel);
   }
-  pi += znak * (4 / dziel);
-}
   return pi;
 }
 
@@ -22,5 +22,5 @@ int main() {
   int liczbaskładników[] = (0, 100, 1000,1000000, 1000000000);
   for (int i= 0; i<5; i++)
   printf("%f\n", pi);
-return 0;
+  return 0;
 }

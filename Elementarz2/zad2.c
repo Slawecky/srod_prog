@@ -1,4 +1,3 @@
-/** Pobrane od Dawida M. */
 #include <stdio.h>
 #include <math.h>
 int main() {
@@ -13,6 +12,6 @@ int main() {
     i++;
   }
   printf("Podana liczba '%d' jest %s\n",
-    n, jest_pierwsza ? "pierwsza" : "złożona");
+  n, jest_pierwsza ? "pierwsza" : "złożona");
   return 0;
 }
