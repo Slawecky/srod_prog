@@ -22,6 +22,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.7462722,
+          54.5322331
+        ]
+      },
+      "properties": {
+        "title": "Tu się urodziłem",
+        "description": "SPS ZOZ Lębork",
+        "marker-size": "medium",
+        "marker-symbol": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.321744800000033,
           54.82624509999999
         ]

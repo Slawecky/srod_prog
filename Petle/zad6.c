@@ -8,9 +8,9 @@ void tablica(int n) {
   for(int a = 1; a < n; a++) {
     scanf("%lf", &tab[a]);
     if (tab[a] < min)
-      min = tab[a];
+    min = tab[a];
     if (tab[a] > max)
-      max = tab[a];
+    max = tab[a];
   }
   printf("%lf %lf\n", min, max);
 }

@@ -3,15 +3,15 @@
 
 void left(int n) {
   for(; n > 0; n--)
-    putchar('*');
+  putchar('*');
   putchar('\t');
 }
 
 void right(int n) {
   for(int s = 8 - n; s > 0; s--)
-    putchar(' ');
+  putchar(' ');
   for(; n > 0; n--)
-    putchar('*');
+  putchar('*');
 }
 
 void drukuj(int n) {
