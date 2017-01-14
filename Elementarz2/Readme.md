@@ -1,2 +1,2 @@
 ## Drugi Elementarz !
-! Dzięki Dawid !
+Zadania 1-4 plus 3b
